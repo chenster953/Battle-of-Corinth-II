@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("Wallpaper.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 125px;
+  color: rgb(185, 8, 8);
+  position: relative;
+  top: -120px;
+}
+.choose {
+  font-size: 3rem;
+  position: relative;
+  top: -80px;
+}
+.greece {
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 13rem;
+  height: 19rem;
+  position: relative;
+  bottom: -50px;
+  background-image: url('spartan.jpg');
+  background-size: cover;
+}
+.rome {
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 13rem;
+  height: 19rem;
+  position: relative;
+  bottom: -50px;
+  background-image: url('gladiator.jpg');
+  background-size: cover;
+}
+.options {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: black;
+  border: none;
+  position: relative;
+  top: -190px;
+  color: rgb(255, 0, 0);
+}
